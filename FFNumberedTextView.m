@@ -130,7 +130,7 @@
     CGFloat xOrigin, yOrigin, width/*, height*/;
     CGFloat lineH = _internalTextView.font.lineHeight;
     int numberOfLines= 0;
-    if(lineH>0) numberOfLines= (_internalTextView.contentSize.height) / lineH;
+    if(lineH>0) numberOfLines= (_internalTextView.contentSize.height-2*TXT_VIEW_INSETS) / lineH;
     
     NSMutableParagraphStyle *paraStyle = [[NSMutableParagraphStyle alloc] init];
     paraStyle.alignment = NSTextAlignmentRight;
