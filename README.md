@@ -3,7 +3,7 @@ FFNumberTextView is a text view with line number
 
 
 ## Preview
- ![image](https://github.com/wesleyyang/demo.png)
+ ![image](https://github.com/wesleydotyang/NumberedTextView/blob/master/demo.png)
 
 
 ## Version History
